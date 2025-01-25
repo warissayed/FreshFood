@@ -1,9 +1,8 @@
 "use client";
 import Link from "next/link";
 import React, { useState } from "react";
-import { FaCaretRight } from "react-icons/fa";
 
-const page: React.FC = () => {
+const Page: React.FC = () => {
   const [country, setCountry] = useState("");
   const [isEditFormVisible, setIsEditFormVisible] = useState(false);
   const [isAddressFormVisible, setIsAddressFormVisible] = useState(false);
@@ -489,4 +488,4 @@ const page: React.FC = () => {
   );
 };
 
-export default page;
+export default Page;
